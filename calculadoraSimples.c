@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*Calculadora Simples: 
+/* 
 Crie um programa em C que funcione como uma calculadora simples. 
 Ele deve ser capaz de realizar operações de adição, subtração, multiplicação e divisão. 
 O programa deve solicitar ao usuário que insira a operação desejada e dois números.*/
