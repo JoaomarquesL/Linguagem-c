@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/*Conversor de Temperatura: 
+Desenvolva um programa que converta temperaturas de Celsius para Fahrenheit.
+O usuário deve inserir a temperatura em graus Celsius, e o programa deve calcular e exibir a 
+temperatura equivalente em Fahrenheit usando a fórmula F = (C * 9/5) + 32.*/
+
+int main(){
+  float celsius, fahrenheit;
+
+  printf("Insira a temperatura em Celsius: ");
+  scanf("%f", &celsius);
+
+  fahrenheit = (celsius * 9 / 5) + 32;
+
+
+  printf("A temperatura em Fahrenheit é: %.2f\n", fahrenheit);
+
+  return 0;
+}
